@@ -7,34 +7,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="pages/index.css">
+  <script src="vendor/libs/gsap/gsap.min.js" defer></script>
+  <script src="vendor/libs/gsap/ScrollTrigger.min.js" defer></script>
+  <script src="vendor/libs/gsap/ScrollSmoother.min.js" defer></script>
   <script src="pages/index.js" defer></script><!-- defer - скрипт загружается в конце -->
 </head>
 
 <body class="page">
-  <header class="header">
-    <div class="layers">
-      <div class="layer layers__title">
-        <h1 class="header__title">Industrial world</h1>
-        <p class="header__subtitle">Has multiple edges</p>
-      </div>
-      <div class="layer layers__basic"></div>
-      <div class="layer layers__farther"></div>
-      <div class="layer layers__middle"></div>
-      <div class="layer layers__front"></div>
-    </div>
-  </header>
-  <main class="content">
-    <section class="intro">
-      <h2 class="intro__title">How much have you seen?</h2>
-      <p class="intro__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque esse vero officia
-        dolor minus reprehenderit accusantium dignissimos animi, dolorum, eveniet consequatur omnis error ducimus nisi
-        similique voluptate quibusdam atque, porro eligendi voluptatum?</p>
-    </section>
-  </main>
-  <footer class="footer">
-    <p class="footer__copyright">&copy; Виктор Гофман</p>
-  </footer>
-
+  <div class="block">
+    <div class="container">
+      <header class="header">
+        <div class="layers">
+          <div class="layer layers__title">
+            <h1 class="header__title">Industrial world</h1>
+            <p class="header__subtitle">Has multiple edges</p>
+          </div>
+          <div class="layer layers__basic"></div>
+          <div class="layer layers__farther"></div>
+          <div class="layer layers__middle"></div>
+          <div class="layer layers__front"></div>
+        </div>
+      </header>
+      <main class="content">
+        <section class="intro">
+          <h2 class="intro__title">How much have you seen?</h2>
+          <p class="intro__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque esse vero officia
+            dolor minus reprehenderit accusantium dignissimos animi, dolorum, eveniet consequatur omnis error ducimus
+            nisi
+            similique voluptate quibusdam atque, porro eligendi voluptatum?</p>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__copyright">&copy; Виктор Гофман</p>
+      </footer>
+    </div><!-- /.container -->
+  </div><!-- /.block -->
 </body>
 
 </html>
