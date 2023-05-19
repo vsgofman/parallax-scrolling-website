@@ -1,3 +1,4 @@
 :root {
-  --index: calc(1vw + 1vh)
+  --index: calc(1vw + 1vh);
+  --introTransform: translate3d(0, calc(var(--scrollTop)/3.2), 0);
 }

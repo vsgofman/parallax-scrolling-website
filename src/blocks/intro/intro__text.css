@@ -1,3 +1,5 @@
 .intro__text {
   max-width: 60%;
+  transform: translate3d(0, calc(var(--scrollTop)/3.2), 0);
+  will-change: transform;
 }

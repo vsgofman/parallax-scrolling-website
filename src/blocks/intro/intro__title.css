@@ -1,6 +1,8 @@
 .intro__title {
-  margin-top: calc(var(--index)*10);
+  /* margin-top: calc(var(--index)*10); */
   margin-bottom: 5px;
   text-transform: uppercase;
   font-size: calc(var(--index)*2);
+  transform: translate3d(0, calc(var(--scrollTop)/3.2), 0);
+  will-change: transform;
 }
