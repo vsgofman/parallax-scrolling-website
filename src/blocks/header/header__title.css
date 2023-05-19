@@ -1,0 +1,7 @@
+.header__title {
+  margin: 315px auto 3px;
+  text-transform: uppercase;
+  font-size: calc(var(--index)*2.5);
+  font-weight: 900;
+  letter-spacing: calc(var(--index)/2.8);
+}

@@ -1,0 +1,8 @@
+.layers__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  transform: translate3d(0, calc(var(--scrollTop)/2), 0);
+  z-index: 1;
+}

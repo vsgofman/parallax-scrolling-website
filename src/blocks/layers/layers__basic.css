@@ -1,4 +1,5 @@
 .layers__basic {
+  transform: translate3d(0, calc(var(--scrollTop)/1.5), 0);
   background-image: url(../../images/layer4.png);
   background-position: center;
 }

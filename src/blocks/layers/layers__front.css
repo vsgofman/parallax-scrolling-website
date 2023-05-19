@@ -1,4 +1,6 @@
 .layers__front {
+  transform: translate3d(0, calc(var(--scrollTop)/5.5), 0);
   background-image: url(../../images/layer1.png);
   background-position: center;
+  z-index: 3;
 }

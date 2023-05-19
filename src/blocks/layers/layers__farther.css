@@ -1,4 +1,5 @@
 .layers__farther {
+  transform: translate3d(0, calc(var(--scrollTop)/2.5), 0);
   background-image: url(../../images/layer3.png);
   background-position: center;
 }

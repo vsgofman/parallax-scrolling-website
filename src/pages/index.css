@@ -1,10 +1,17 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/variables.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/header__title.css);
+@import url(../blocks/header/header__subtitle.css);
 @import url(../blocks/layers/layers.css);
 @import url(../blocks/layer/layer.css);
+@import url(../blocks/layers/layers__title.css);
 @import url(../blocks/layers/layers__basic.css);
 @import url(../blocks/layers/layers__farther.css);
 @import url(../blocks/layers/layers__middle.css);
 @import url(../blocks/layers/layers__front.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/intro__title.css);
+@import url(../blocks/intro/intro__text.css);

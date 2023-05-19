@@ -1,4 +1,6 @@
 .layers__middle {
+  transform: translate3d(0, calc(var(--scrollTop)/4), 0);
   background-image: url(../../images/layer2.png);
   background-position: center;
+  z-index: 2;
 }

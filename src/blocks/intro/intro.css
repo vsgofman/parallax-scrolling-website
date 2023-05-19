@@ -1,0 +1,8 @@
+.intro {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../../images/subway.png);
+  background-size: cover;
+}
